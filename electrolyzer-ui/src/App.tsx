@@ -44,14 +44,6 @@ export default function AssetManagement() {
     );
   };
 
-  // const handleSelectAll = (e: React.ChangeEvent<HTMLInputElement>) => {
-  //   if (e.target.checked) {
-  //     const availableIds = elementParts
-  //       .filter((item) => !currentStatuses[item.id])
-  //       .map((item) => item.id);
-  //     setSelectedElements(availableIds);
-  //   } else setSelectedElements([]);
-  // };
   const handleSelectAll = (shouldSelect: boolean) => {
     if (shouldSelect) {
       const availableIds = elementParts
@@ -91,7 +83,7 @@ export default function AssetManagement() {
   };
 
   return (
-    <div className="min-h-screen bg-[#ffffff] overflow-x-hidden">
+    <div className="min-h-screen bg-[#ffffff]">
       <div className="bg-[#D1D5DB] py-[1rem] px-[3rem] mb-[1rem] flex justify-between items-center font-[800] text-[1.5rem]">
         Tephram Assent Management Solution
       </div>

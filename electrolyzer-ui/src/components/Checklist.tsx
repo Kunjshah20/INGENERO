@@ -20,9 +20,9 @@ export const Checklist = ({
       className="w-full max-w-[40rem] min-h-[8rem] p-[1rem] bg-[#EDEDED] border-none rounded-[0.5rem] text-[1rem] outline-none resize-none placeholder-[#9ea0a4]"
     />
 
-    <div className="flex justify-start items-center mt-[2rem] mb-[1rem]">
-      <div className="flex items-center gap-[0.5rem]">
-        <span className="text-[1.2rem] font-bold">Disassembly Checklist</span>
+    <div className="flex justify-between items-center mt-[2rem] mb-[1rem]">
+      <div className="flex items-center gap-[0.6rem] whitespace-nowrap">
+        <span className="text-[1rem] font-bold">Disassembly Checklist</span>
         <span className="flex items-center justify-center w-[1.5rem] h-[1.5rem] bg-[#D1D5DB] text-[0.85rem] mt-[0.1rem] font-bold rounded-full">
           {selectedItems.length}
         </span>
@@ -30,7 +30,7 @@ export const Checklist = ({
 
       <button
         onClick={onClear}
-        className="text-[1rem] ml-[15rem] mt-[0.5rem] underline bg-transparent border-none cursor-pointer"
+        className="text-[1rem] mt-[0.5rem] underline bg-transparent border-none cursor-pointer"
       >
         Clear Selection
       </button>
