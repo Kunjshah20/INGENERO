@@ -38,9 +38,7 @@ export const ElectrolyzerSidebar = ({
             key={id}
             onClick={() => onSelect(id)}
             className={`w-full max-w-[8rem] mb-[1rem] border-none py-[0.6rem] rounded-[0.5rem] text-[0.875rem] font-[500] ${
-              selectedId === id
-                ? "bg-[#D97706] text-white"
-                : "bg-[#D1D5DB] text-gray-700 hover:bg-gray-300"
+              selectedId === id ? "bg-[#D97706] text-white" : "bg-[#D1D5DB]"
             }`}
           >
             {id}
