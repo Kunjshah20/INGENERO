@@ -17,7 +17,7 @@ export const Checklist = ({
     </label>
     <textarea
       placeholder="Cut Out Comments here"
-      className="w-full max-w-[40rem] min-h-[8rem] p-[1rem] bg-[#EDEDED] border-none rounded-[0.5rem] text-[1rem] outline-none resize-none placeholder-[#9ea0a4]"
+      className="w-auto min-h-[8rem] p-[1rem] bg-[#EDEDED] border-none rounded-[0.5rem] text-[1rem] outline-none resize-none placeholder-[#9ea0a4]"
     />
 
     <div className="flex justify-between items-center mt-[2rem] mb-[1rem]">

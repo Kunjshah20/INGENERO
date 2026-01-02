@@ -83,11 +83,11 @@ export default function AssetManagement() {
   };
 
   return (
-    <div className="min-h-screen bg-[#ffffff]">
-      <div className="bg-[#D1D5DB] py-[1rem] px-[3rem] mb-[1rem] flex justify-between items-center font-[800] text-[1.5rem]">
+    <div className="min-h-screen bg-[#ffffff] overflow-x-hidden">
+      <header className="bg-[#D1D5DB] py-[1rem] px-[3rem] mb-[1rem] flex justify-between items-center font-[800] text-[1.5rem] w-full">
         Tephram Assent Management Solution
-      </div>
-      <div className="bg-[#D1D5DB] px-[1rem] py-[0.75rem] mb-[1rem] text-xs font-[500] text-gray-600">
+      </header>
+      <div className="bg-[#D1D5DB] px-[1rem] py-[0.75rem] mb-[1rem] text-xs font-[500] !w-full">
         Disassembly Electrolyzer
       </div>
 
@@ -119,7 +119,7 @@ export default function AssetManagement() {
               />
 
               <div className="flex-1">
-                <div className="bg-white p-6 rounded-lg shadow-sm min-h-[500px] flex flex-col">
+                <div className="bg-white p-[1.5rem] rounded-lg shadow-sm min-h-[500px] flex flex-col">
                   <Checklist
                     items={checklistItems}
                     selectedItems={selectedChecklist}
